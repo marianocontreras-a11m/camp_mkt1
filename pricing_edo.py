@@ -33,7 +33,7 @@ st.title("Dashboard de Pricing por Estado · Modelo Factor X")
 # =====================================================
 # CARGA DE DATOS
 # =====================================================
-DEFAULT_CSV_PATH = "/Users/maimai/Downloads/estado_master.csv"
+DEFAULT_CSV_PATH = "/Users/maimai/Documents/camp_mkt1/estado_master.csv"
 
 @st.cache_data(show_spinner=False)
 def load_data(path):
